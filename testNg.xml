@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite1" verbose="10" parallel ="false" thread-count="5">
+<test name="Test1">
+  <classes>
+    <class name="jobsApi.TC02_POST_DDT"/>
+  </classes>
+</test>
+</suite>
